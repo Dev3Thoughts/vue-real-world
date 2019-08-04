@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  props: ['username']
-};
+  props: ['userLastName']
+}
 </script>
 
 <style lang="scss" scoped></style>

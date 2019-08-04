@@ -28,10 +28,10 @@ export default new Router({
       component: EventCreate
     },
     {
-      path: '/user/:username',
+      path: '/User',
       name: 'user',
-      component: User,
-      props: true
+      component: () =>
+        import(/* webpackChunkName: "about" */ './views/User.vue')
     }
   ]
 })
